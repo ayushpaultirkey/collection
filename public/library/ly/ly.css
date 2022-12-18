@@ -1,0 +1,42 @@
+.image {
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.width {
+    width: 100%;
+}
+.height {
+    height: 100%;
+}
+
+.flex-column {
+    display: flex;
+    flex-direction: row;
+}
+.flex-row {
+    display: flex;
+    flex-direction: column;
+}
+.ver-top {
+    justify-content: flex-start;
+}
+.ver-center {
+    justify-content: center;
+}
+.ver-bottom {
+    justify-content: flex-end;
+}
+
+
+.hor-top {
+    align-items: flex-start;
+}
+.hor-center {
+    align-items: center;
+}
+.hor-bottom {
+    align-items: flex-end;
+}
